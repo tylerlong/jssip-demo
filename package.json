@@ -1,9 +1,16 @@
 {
-  "devDependencies": {
-    "standard": "^14.1.0",
-    "yarn-upgrade-all": "^0.5.2"
+  "scripts": {
+    "test": "node -r @babel/register -r dotenv-override-true/config index.js"
   },
   "dependencies": {
-    "dotenv-override-true": "^6.2.0"
+    "dotenv-override-true": "^6.2.0",
+    "ringcentral-js-concise": "^0.7.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "standard": "^14.1.0",
+    "yarn-upgrade-all": "^0.5.2"
   }
 }
