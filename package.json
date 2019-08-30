@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "standard": "^14.1.0",
+    "yarn-upgrade-all": "^0.5.2"
+  },
+  "dependencies": {
+    "dotenv-override-true": "^6.2.0"
+  }
+}
