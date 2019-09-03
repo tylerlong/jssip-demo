@@ -15,4 +15,7 @@ import RingCentral from 'ringcentral-js-concise'
     sipInfo: [{ transport: 'WSS' }]
   })
   console.log(r.data)
+  await rc.revoke()
+
+  console.log(process.env.RINGCENTRAL_USERNAME)
 })()

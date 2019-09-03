@@ -1,6 +1,7 @@
 {
+  "license": "All rights Reserved",
   "scripts": {
-    "test": "node -r @babel/register -r dotenv-override-true/config index.js"
+    "test": "node -r dotenv-override-true/config -r @babel/register index.js"
   },
   "dependencies": {
     "dotenv-override-true": "^6.2.0",
